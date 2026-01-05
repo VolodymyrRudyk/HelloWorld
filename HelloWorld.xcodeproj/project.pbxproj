@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		B30516E62F03C8E2008F205C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -49,6 +47,7 @@
 				B30516EA2F03C8E2008F205C /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		B30516EA2F03C8E2008F205C /* Products */ = {
 			isa = PBXGroup;
@@ -71,14 +70,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				B30516EB2F03C8E2008F205C /* HelloWorld */,
 			);
 			name = HelloWorld;
-			packageProductDependencies = (
-			);
 			productName = HelloWorld;
 			productReference = B30516E92F03C8E2008F205C /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
@@ -90,8 +85,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
+				ORGANIZATIONNAME = CompanyRudyk;
 				TargetAttributes = {
 					B30516E82F03C8E2008F205C = {
 						CreatedOnToolsVersion = 26.2;
@@ -107,7 +104,7 @@
 			);
 			mainGroup = B30516E02F03C8E2008F205C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = B30516EA2F03C8E2008F205C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,29 +117,26 @@
 /* Begin PBXResourcesBuildPhase section */
 		B30516E72F03C8E2008F205C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B30516E52F03C8E2008F205C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B30516FD2F03C8E4008F205C /* Debug */ = {
+		B30516FD2F03C8E4008F205C /* Debug configuration for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LUX96RVRH6;
@@ -160,6 +154,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Company.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -174,11 +169,12 @@
 			};
 			name = Debug;
 		};
-		B30516FE2F03C8E4008F205C /* Release */ = {
+		B30516FE2F03C8E4008F205C /* Release configuration for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LUX96RVRH6;
@@ -196,6 +192,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Company.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -210,7 +207,7 @@
 			};
 			name = Release;
 		};
-		B30516FF2F03C8E4008F205C /* Debug */ = {
+		B30516FF2F03C8E4008F205C /* Debug configuration for PBXProject "HelloWorld" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		B30517002F03C8E4008F205C /* Release */ = {
+		B30517002F03C8E4008F205C /* Release configuration for PBXProject "HelloWorld" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,19 +334,17 @@
 		B30516E42F03C8E2008F205C /* Build configuration list for PBXProject "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B30516FF2F03C8E4008F205C /* Debug */,
-				B30517002F03C8E4008F205C /* Release */,
+				B30516FF2F03C8E4008F205C /* Debug configuration for PBXProject "HelloWorld" */,
+				B30517002F03C8E4008F205C /* Release configuration for PBXProject "HelloWorld" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		B30516FC2F03C8E4008F205C /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B30516FD2F03C8E4008F205C /* Debug */,
-				B30516FE2F03C8E4008F205C /* Release */,
+				B30516FD2F03C8E4008F205C /* Debug configuration for PBXNativeTarget "HelloWorld" */,
+				B30516FE2F03C8E4008F205C /* Release configuration for PBXNativeTarget "HelloWorld" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
